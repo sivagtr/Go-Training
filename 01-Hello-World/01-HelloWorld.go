@@ -2,6 +2,7 @@
 package main
 
 // Import dependencies
+import "fmt"
 
 // Package level scope variables/constants/type declarations
 
@@ -9,17 +10,16 @@ package main
 func main() {
 	// Print "Hello, World!" to the console
 	println("Hello, World!")
+	// Print "Hello, World!" using fmt package
+	fmt.Println("Hello, World!")
+	// Print "Hello, World!" using fmt.Printf
+	fmt.Printf("%0.2f\n", 3.14659) // Print float with 2 decimal places
+
 }
 
 // Other functions (if any)
 
-
-
-
-
-
-
-/* 
+/*
 
 To Build and Run the Program
 -----------------------
